@@ -1,0 +1,22 @@
+{
+  "crypto": 
+  {
+    "Index": ["crypto", "steg", "web"],
+    "Substitution ciphers": ["crypto/rot", "crypto/vigenere"],
+    "Hashing": ["crypto/md5", "crypto/sha1", "crypto/sha2"],
+    "Symmetric encryption": ["crypto/aes"],
+    "Asymmetric encryption": ["crypto/rsa"],
+    "Others": ["crypto/dh"]
+  },
+
+  "stego": 
+  {
+  },
+
+  "web":
+  {
+    "HTTP": ["web/http"],
+    "PHP": ["web/php"],
+    "SQL": ["web/sql"]
+  }
+}
